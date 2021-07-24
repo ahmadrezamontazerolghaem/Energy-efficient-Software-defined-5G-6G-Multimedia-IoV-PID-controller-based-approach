@@ -4,7 +4,6 @@
 #include <string.h>
 
 #include "agent.h" 
-
 #include "iostream.h"
 
 static void 

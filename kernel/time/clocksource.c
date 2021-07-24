@@ -5,8 +5,6 @@
 #include <linux/sched.h> /* for spin_unlock_irq() using preempt_count() m68k */
 #include <linux/tick.h>
 #include <linux/kthread.h>
-
-
 #include "tick-internal.h"
 #include "timekeeping_internal.h"
 

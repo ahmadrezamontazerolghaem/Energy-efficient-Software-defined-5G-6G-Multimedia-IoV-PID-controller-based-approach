@@ -4,7 +4,6 @@ module Memorylogic
       after_filter :log_memory_usage
     end
   end
-
   class << self 
     include ActionView::Helpers::NumberHelper
   end

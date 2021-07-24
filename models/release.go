@@ -10,7 +10,7 @@ type Releases []Release
 
 func NewRelease(app string) Release {
 	return Release{
-		Id:  generateId("R", 10),
+	Id:  generateId("R", 10),
 		App: app,
 	}
 }

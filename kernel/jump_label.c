@@ -16,7 +16,6 @@ void jump_label_lock(void)
 {
 	mutex_lock(&jump_label_mutex);
 }
-
 void jump_label_unlock(void)
 {
 	mutex_unlock(&jump_label_mutex);

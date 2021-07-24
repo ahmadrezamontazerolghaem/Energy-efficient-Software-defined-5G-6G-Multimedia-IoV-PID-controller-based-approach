@@ -12,7 +12,6 @@ func GetRegistriesAuth() (Environment, docker.AuthConfigurations119, error) {
 			return env, acs, err
 		}
 	}
-
 	return env, acs, nil
 }
 

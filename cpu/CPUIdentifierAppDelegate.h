@@ -16,7 +16,6 @@
     BOOL connected;
 }
 
-
 - (void)populateData;
 - (void)dePopulateData;
 - (void)recoveryCallback;

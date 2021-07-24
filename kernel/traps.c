@@ -34,6 +34,7 @@ int is_valid_bugaddr(unsigned long addr)
 static const char *ex_name(int ex)
 {
 	switch (ex) {
+			
 	case HVM_GE_C_XPROT:
 	case HVM_GE_C_XUSER:
 		return "Execute protection fault";

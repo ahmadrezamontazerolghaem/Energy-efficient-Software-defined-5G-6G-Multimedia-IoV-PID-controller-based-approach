@@ -36,7 +36,6 @@ struct upload_buffer {
 	size_t		len;
 	size_t		pos;
 };
-
 struct header_info {
 	char		*lp_path;
 	char		*reason;

@@ -17,7 +17,6 @@
 #include <linux/lockdep.h>
 #include <trace/events/power.h>
 
-
 #include "smpboot.h"
 
 #ifdef CONFIG_SMP

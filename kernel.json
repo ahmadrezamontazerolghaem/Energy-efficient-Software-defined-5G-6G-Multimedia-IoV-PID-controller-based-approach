@@ -8,7 +8,7 @@
     "BlankRegistryHost": { "Fn::Equals": [ { "Ref": "RegistryHost" }, "" ] },
     "Development": { "Fn::Equals": [ { "Ref": "Development" }, "Yes" ] },
     "Encryption": { "Fn::Equals": [ { "Ref": "Encryption" }, "Yes" ] }
-  },
+  }, 
   "Mappings": { 
     "RegionConfig": {
       "us-east-1": { "Ami": "ami-cb2305a1" },

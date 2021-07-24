@@ -24,7 +24,6 @@
 #include <asm/byteorder.h>
 #include <linux/torture.h>
 
-
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Paul E. McKenney <paulmck@us.ibm.com>");
 

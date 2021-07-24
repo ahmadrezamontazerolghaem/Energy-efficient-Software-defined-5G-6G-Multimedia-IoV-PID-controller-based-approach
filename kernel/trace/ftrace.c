@@ -22,7 +22,6 @@
 
 
 #include <asm/setup.h>
-
 #include "trace_output.h"
 #include "trace_stat.h"
 

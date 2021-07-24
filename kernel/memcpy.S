@@ -3,8 +3,6 @@
  *   if(length) for(i=0; i < length; i++) { ptr_out[i] = ptr_in[i]; }
  *   return(ptr_out);
  * }
- 
- 
  * Optimized memcpy function
  * =========================
  * void * memcpy(char * ptr_out, char * ptr_in, int len) {

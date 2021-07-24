@@ -1,5 +1,4 @@
 package models
-
 import (
 	"encoding/base64"
 	"fmt"

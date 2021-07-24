@@ -5,7 +5,6 @@ var DescribeStacksCache = map[string]DescribeStacksResult{}
 var DescribeStacksCacheTTL = 5 * time.Second
 
 var DescribeStacksMutex = &sync.Mutex{} 
-
 type DescribeStacksResult struct {
 	Name        string
 	Output      *cloudformation.DescribeStacksOutput

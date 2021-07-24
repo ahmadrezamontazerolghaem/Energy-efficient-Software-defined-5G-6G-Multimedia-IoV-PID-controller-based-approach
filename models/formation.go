@@ -125,7 +125,6 @@ func SetFormation(app, process, count, memory string) error {
 	if memory != "" {
 		params[fmt.Sprintf("%sMemory", UpperName(process))] = memory
 	}
-
 	NotifySuccess("release:scale", map[string]string{
 		"app": rel.App,
 		"id":  rel.Id,

@@ -9,7 +9,7 @@ func init() {
 	if os.Getenv("DEVELOPMENT") == "true" {
 		segment.Size = 1
 	}
-
+ 
 	clientId := os.Getenv("CLIENT_ID")
 
 	if regexpEmail.MatchString(clientId) && clientId != "ci@convox.com" {

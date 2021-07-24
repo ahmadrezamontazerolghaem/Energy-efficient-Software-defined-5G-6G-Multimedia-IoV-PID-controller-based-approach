@@ -3,7 +3,6 @@
 #include <linux/module.h>
 #include <linux/moduleloader.h>
 #include <linux/vmalloc.h>
-
 #if 0
 #define DEBUGP printk
 #else

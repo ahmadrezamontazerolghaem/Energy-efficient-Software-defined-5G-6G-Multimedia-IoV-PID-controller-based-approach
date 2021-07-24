@@ -5,7 +5,6 @@ type Resource struct {
 	Reason string
 	Status string
 	Type   string
-
 	Time time.Time
 }
 type Resources map[string]Resource 

@@ -4,7 +4,6 @@ PHONY += klibcdirs
 suffix_$(CONFIG_RD_BZIP2)  = .bz2
 # Lzma 
 suffix_$(CONFIG_RD_LZMA)   = .lzma
-
 # XZ
 suffix_$(CONFIG_RD_XZ)     = .xz
 

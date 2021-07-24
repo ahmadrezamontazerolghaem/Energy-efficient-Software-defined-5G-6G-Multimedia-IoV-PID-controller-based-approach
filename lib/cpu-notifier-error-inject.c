@@ -2,7 +2,6 @@
 #include <linux/module.h>
 #include <linux/cpu.h>
 #include "notifier-error-inject.h"
-
 static int priority;
 module_param(priority, int, 0);
 MODULE_PARM_DESC(priority, "specify cpu notifier priority");

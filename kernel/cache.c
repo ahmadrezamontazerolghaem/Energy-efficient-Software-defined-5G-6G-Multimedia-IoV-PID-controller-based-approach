@@ -11,7 +11,6 @@ void flush_dcache_range(unsigned long start, unsigned long end)
 
 	start &= ~(LINESIZE - 1);
 
-
 	local_irq_save(flags);
 
 	for (i = 0; i < lines; i++) {
@@ -64,7 +63,7 @@ void hexagon_clean_dcache_range(unsigned long start, unsigned long end)
 		"	dccleana(%0);	"
 		:
 		: "r" (start)
-		);
+	);
 		start += LINESIZE;
 	}
 	local_irq_restore(flags);

@@ -7,7 +7,6 @@
 #include <xmmintrin.h>
 #include <stdint.h>
 #include <stdio.h>
-
 #define NPAR 32
 
 static void DoubleBlockSHA256(const void* pin, void* pout, const void* pinit, unsigned int hash[8][NPAR], const void* init2);

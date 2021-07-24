@@ -12,7 +12,6 @@
 #include <asm/timer-regs.h>
 #include <asm/hexagon_vm.h>
 
-
 /*
  * For the clocksource we need:
  *	pcycle frequency (600MHz)

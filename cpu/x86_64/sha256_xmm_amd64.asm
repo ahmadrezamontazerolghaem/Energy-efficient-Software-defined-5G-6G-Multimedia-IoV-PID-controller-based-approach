@@ -1,6 +1,5 @@
 ALIGN 32
 BITS 64
-
 %define hash rdi
 %define data rsi
 %define init rdx

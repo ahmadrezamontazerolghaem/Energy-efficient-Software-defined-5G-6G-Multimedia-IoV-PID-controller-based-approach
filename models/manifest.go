@@ -9,7 +9,6 @@ import (
  
 	"github.com/convox/rack/Godeps/_workspace/src/gopkg.in/yaml.v2"
 )
-
 // set to false when testing for deterministic ports
 var ManifestRandomPorts = true
 

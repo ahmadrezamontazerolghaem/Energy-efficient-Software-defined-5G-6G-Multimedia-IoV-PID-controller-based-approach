@@ -1,7 +1,6 @@
 package models
 
 import "os"
-
 func SettingGet(name string) (string, error) {
 	value, err := s3Get(os.Getenv("SETTINGS_BUCKET"), name) 
 

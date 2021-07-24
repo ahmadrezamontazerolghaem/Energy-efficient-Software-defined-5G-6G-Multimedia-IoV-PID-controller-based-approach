@@ -1,7 +1,6 @@
 #include "boot.h"
 #include <asm/segment.h>
 
-
 /*
  * Invoke the realmode switch hook if present; otherwise
  * disable all interrupts.

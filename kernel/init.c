@@ -7,7 +7,6 @@
 #include <asm/tlb.h>
 #include <asm/sections.h>
 #include <asm/vm_mmu.h>
-
 /*
  * Define a startpg just past the end of the kernel image and a lastpg
  * that corresponds to the end of real or simulated platform memory.

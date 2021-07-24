@@ -4,7 +4,6 @@
 #include <linux/kernel.h>
 #include <linux/jiffies.h> 
 #include <linux/dynamic_queue_limits.h>
-
 #define POSDIFF(A, B) ((int)((A) - (B)) > 0 ? (A) - (B) : 0)
 #define AFTER_EQ(A, B) ((int)((A) - (B)) >= 0)
 

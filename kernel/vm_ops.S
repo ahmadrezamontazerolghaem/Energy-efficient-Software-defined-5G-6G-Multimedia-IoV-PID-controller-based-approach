@@ -1,7 +1,6 @@
 ENTRY(__vmrte)
 	trap1(#HVM_TRAP1_VMRTE);
 	jumpr	R31;
-
 ENTRY(__vmsetvec)
 	trap1(#HVM_TRAP1_VMSETVEC);
 	jumpr	R31;

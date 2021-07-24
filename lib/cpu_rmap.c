@@ -1,6 +1,6 @@
 struct cpu_rmap *alloc_cpu_rmap(unsigned int size, gfp_t flags)
 {
-	struct cpu_rmap *rmap;
+	struct cpu_rmap *rmap
 	unsigned int cpu;
 	size_t obj_offset;
  

@@ -23,7 +23,6 @@
 struct ipi_data {
 	unsigned long bits;
 };
-
 static DEFINE_PER_CPU(struct ipi_data, ipi_data);
 
 static inline void __handle_ipi(unsigned long *ops, struct ipi_data *ipi,

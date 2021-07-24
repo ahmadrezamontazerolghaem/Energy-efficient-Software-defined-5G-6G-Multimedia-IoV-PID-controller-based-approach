@@ -5,7 +5,6 @@
 		| __HVM_PDE_S_16MB)
 
 /*  No cache version  */
-
 #define BKPG_IO(pa) (((pa) & __HVM_PTE_PGMASK_16MB) \
 			| __HVM_PTE_R | __HVM_PTE_W | __HVM_PTE_X \
 			| __HVM_PDE_S_16MB | __HEXAGON_C_DEV << 6 )

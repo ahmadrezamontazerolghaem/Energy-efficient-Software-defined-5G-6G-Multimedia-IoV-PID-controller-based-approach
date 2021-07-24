@@ -1,5 +1,4 @@
 comment "Linux Kernel Configuration for Hexagon"
-
 config HEXAGON
 	def_bool y
 	select HAVE_OPROFILE

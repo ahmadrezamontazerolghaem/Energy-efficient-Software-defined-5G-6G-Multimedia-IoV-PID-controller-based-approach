@@ -35,7 +35,6 @@
 #ifdef CONFIG_SPARC
 #	define XZ_DEC_SPARC
 #endif
-
 /*
  * This will get the basic headers so that memeq() and others
  * can be defined.

@@ -1,6 +1,5 @@
 klibcdirs:;
 PHONY += klibcdirs
-
 # Bzip2
 suffix_$(CONFIG_RD_BZIP2)  = .bz2
 # Lzma 

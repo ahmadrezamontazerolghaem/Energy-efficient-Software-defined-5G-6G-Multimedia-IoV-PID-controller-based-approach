@@ -4,7 +4,6 @@
 #include <linux/sched.h>
 #include <linux/seq_file.h>
 #include <linux/kallsyms.h>
-
 #include <asm/uaccess.h>
 
 /*

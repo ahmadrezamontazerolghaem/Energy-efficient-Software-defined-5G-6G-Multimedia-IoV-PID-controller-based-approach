@@ -3,7 +3,6 @@ func subscribeCloudWatchLogs(group string, output chan []byte, quit chan bool) {
 
 	horizonTime := time.Now().Add(-2 * time.Minute) 
 	activeStreams := map[string]bool{}
-
 	for {
 		res, err := CloudWatchLogs().DescribeLogStreams(&cloudwatchlogs.DescribeLogStreamsInput{
 			LogGroupName: aws.String(group),

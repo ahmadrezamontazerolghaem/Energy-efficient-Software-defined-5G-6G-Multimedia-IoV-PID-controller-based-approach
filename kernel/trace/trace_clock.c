@@ -7,7 +7,6 @@
 #include <linux/ktime.h>
 #include <linux/trace_clock.h>
 
-
 /*
  * trace_clock_local(): the simplest and least coherent tracing clock.
  *

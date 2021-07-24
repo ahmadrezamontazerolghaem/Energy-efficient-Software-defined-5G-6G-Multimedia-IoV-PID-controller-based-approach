@@ -8,7 +8,6 @@ type Instance struct {
 	Status    string    `json:"status"`
 	Started   time.Time `json:"started"`
 }
-
 type Instances []Instance
 
 type InstanceResource struct {

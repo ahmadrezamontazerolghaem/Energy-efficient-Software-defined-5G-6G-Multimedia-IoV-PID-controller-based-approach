@@ -4,7 +4,6 @@
 #include <sys/types.h>
 #include "stun/stunagent.h"
 #include "stun/usages/ice.h"
-
 #include <stdlib.h>
 #include <stdio.h> 
 #include <string.h>

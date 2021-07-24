@@ -1,7 +1,6 @@
 #include <linux/perf_event.h>
 #include <linux/slab.h>
 #include "internal.h"
-
 struct callchain_cpus_entries {
 	struct rcu_head			rcu_head;
 	struct perf_callchain_entry	*cpu_entries[0]; 

@@ -20,7 +20,6 @@ func ListServices() (Services, error) {
 			services = append(services, *serviceFromStack(stack))
 		}
 	}
-
 	sort.Sort(services)
 
 	return services, nil

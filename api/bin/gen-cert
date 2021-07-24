@@ -1,6 +1,5 @@
 #!/bin/sh
 set -ex
-
 # Script inspired by:
 # http://crohr.me/journal/2014/generate-self-signed-ssl-certificate-without-prompt-noninteractive-mode.html
 # https://serversforhackers.com/using-ssl-certificates-with-haproxy

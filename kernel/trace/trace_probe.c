@@ -1,5 +1,4 @@
 #include "trace_probe.h"
-
 const char *reserved_field_names[] = {
 	"common_type",
 	"common_flags",

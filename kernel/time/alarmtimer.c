@@ -15,7 +15,7 @@
  * @timer: 		hrtimer used to schedule events while running
  * @gettime:		Function to read the time correlating to the base
  * @base_clockid:	clockid for the base
- */
+
 static struct alarm_base {
 	spinlock_t		lock;
 	struct timerqueue_head	timerqueue;

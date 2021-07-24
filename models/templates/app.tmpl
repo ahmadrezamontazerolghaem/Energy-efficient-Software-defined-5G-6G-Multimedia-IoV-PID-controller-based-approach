@@ -6,7 +6,7 @@
       {{ template "process-conditions" . }} 
       {{ template "registry-conditions" . }}
       "BlankCluster": { "Fn::Equals": [ { "Ref": "Cluster" }, "" ] }
-    },
+    }, 
     "Parameters" : {
       {{ template "balancer-params" . }}
       {{ template "process-params" . }}

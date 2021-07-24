@@ -28,7 +28,6 @@ func GetAppServices(app string) ([]*ecs.Service, error) {
 	}
 
 	arns := []*string{}
-
 	i := 0
 	for _, r := range resources {
 		i = i + 1

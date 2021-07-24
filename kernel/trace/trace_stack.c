@@ -9,7 +9,6 @@
 #include <linux/sysctl.h>
 #include <linux/init.h>
 #include <linux/fs.h>
-
 #include <asm/setup.h>
 
 #include "trace.h"

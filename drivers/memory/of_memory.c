@@ -5,7 +5,6 @@
 #include <linux/gfp.h>
 #include <memory/jedec_ddr.h>
 #include <linux/export.h>
-
 /**
  * of_get_min_tck() - extract min timing values for ddr
  * @np: pointer to ddr device tree node

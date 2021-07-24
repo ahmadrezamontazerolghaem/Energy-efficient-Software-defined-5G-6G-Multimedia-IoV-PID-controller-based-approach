@@ -1,5 +1,4 @@
 package models
-
 import "time"
 
 // A Transaction groups more than one event on a Name/Type resource

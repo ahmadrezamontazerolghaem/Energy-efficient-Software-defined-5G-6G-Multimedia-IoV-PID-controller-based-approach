@@ -1,6 +1,5 @@
 #include <linux/linkage.h>
 #include <linux/errno.h>
-
 #include <asm/unistd.h>
 
 /*  we can't #include <linux/syscalls.h> here,

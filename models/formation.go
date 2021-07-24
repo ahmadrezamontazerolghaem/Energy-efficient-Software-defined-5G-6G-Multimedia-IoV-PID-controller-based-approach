@@ -14,7 +14,6 @@ type FormationEntry struct {
 	Memory   int    `json:"memory"`
 	Ports    []int  `json:"ports"`
 }
-
 type Formation []FormationEntry
 
 func ListFormation(app string) (Formation, error) {

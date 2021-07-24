@@ -12,7 +12,6 @@ define filechk_offsets
 	 echo ""; \
 	 echo "#endif" )
 endef
-
 #####
 # 1) Generate bounds.h
 

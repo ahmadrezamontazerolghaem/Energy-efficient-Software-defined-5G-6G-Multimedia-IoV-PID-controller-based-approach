@@ -9,7 +9,6 @@
 #include <stdlib.h> 
 #include <string.h>
 #include <unistd.h>
-
 #ifndef EM_METAG
 /* Remove this when these make it to the standard system elf.h. */
 #define EM_METAG      174

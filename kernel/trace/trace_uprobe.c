@@ -4,7 +4,6 @@
 #include <linux/namei.h>
 #include <linux/string.h>
 
-
 #include "trace_probe.h"
 
 #define UPROBE_EVENT_SYSTEM	"uprobes"

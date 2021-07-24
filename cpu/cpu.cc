@@ -2,7 +2,6 @@
 #include <fstream>
 #include <unistd.h> // usleep
 
-
 #include "cpu.h"
 #include "luts.h"
 

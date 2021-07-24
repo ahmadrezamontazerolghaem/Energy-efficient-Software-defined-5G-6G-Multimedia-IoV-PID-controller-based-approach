@@ -5,7 +5,6 @@ type SSL struct {
 	Port       int       `json:"port"`
 	Secure     bool      `json:"secure"`
 } 
-
 type SSLs []SSL
 
 func CreateSSL(app, process string, port int, body, key string, chain string, secure bool) (*SSL, error) {

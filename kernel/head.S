@@ -6,7 +6,6 @@
 #include <asm/page.h>
 #include <asm/hexagon_vm.h>
 #define SEGTABLE_ENTRIES #0x0e0
-
 	__INIT
 ENTRY(stext)
 	/*

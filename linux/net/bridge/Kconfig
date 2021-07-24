@@ -26,7 +26,6 @@ config BRIDGE
 
 	  To compile this code as a module, choose M here: the module
 	  will be called bridge.
-
 	  If unsure, say N.
 
 config BRIDGE_IGMP_SNOOPING

@@ -5,7 +5,6 @@
 #include <linux/mutex.h>
 #include <linux/sched.h>
 #include "gcov.h"
-
 static int gcov_events_enabled;
 static DEFINE_MUTEX(gcov_lock);
 

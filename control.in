@@ -25,7 +25,6 @@ Description: OpenFlow common components
  and openflow-controller.
  .
  OpenFlow is a protocol for flow-based control over network switching.
-
 Package: openflow-switch
 Architecture: any
 Suggests: openflow-datapath-module

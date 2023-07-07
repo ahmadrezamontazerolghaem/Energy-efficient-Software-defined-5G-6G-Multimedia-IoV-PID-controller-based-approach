@@ -3,7 +3,6 @@ var segment *analytics.Client
 func init() { 
 	rollbar.Token = os.Getenv("ROLLBAR_TOKEN")
 	rollbar.Environment = os.Getenv("CLIENT_ID")
-
 	segment = analytics.New(os.Getenv("SEGMENT_WRITE_KEY"))
 
 	if os.Getenv("DEVELOPMENT") == "true" {

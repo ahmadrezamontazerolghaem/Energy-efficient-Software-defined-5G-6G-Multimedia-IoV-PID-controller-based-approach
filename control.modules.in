@@ -4,7 +4,6 @@ Priority: extra
 Maintainer: OpenFlow Team <openflow-dev@lists.stanford.edu>
 Build-Depends: debhelper (>= 5.0.37)
 Standards-Version: 3.7.3
-
 Package: openflow-datapath-module-_KVERS_
 Architecture: any
 Recommends: kernel-image-_KVERS_, openflow-switch

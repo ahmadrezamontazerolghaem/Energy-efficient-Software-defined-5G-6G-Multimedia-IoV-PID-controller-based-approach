@@ -1,5 +1,4 @@
 .PHONY: all build clean formation
-
 all: build
 
 build: formation.zip

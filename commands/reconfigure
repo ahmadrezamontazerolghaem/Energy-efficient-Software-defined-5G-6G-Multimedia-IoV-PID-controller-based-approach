@@ -3,7 +3,6 @@
 use POSIX;
 use strict;
 use warnings;
-
 my $default = '/etc/default/openflow-switch';
 
 my (%config) = load_config($default);

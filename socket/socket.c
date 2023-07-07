@@ -2,7 +2,6 @@
 # include "config.h"
 #endif
 
-
 #include <glib.h>
  
 #include "socket.h"

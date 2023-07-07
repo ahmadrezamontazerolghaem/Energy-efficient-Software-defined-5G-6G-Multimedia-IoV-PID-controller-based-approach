@@ -6,7 +6,6 @@ use LWP::UserAgent;
 use Digest::SHA1 'sha1_hex';
 use strict;
 use warnings;
-
 # XXX should support configuring SWITCH_NETMASK and SWITCH_GATEWAY
 # when the mode is in-band.
 

@@ -1,5 +1,4 @@
 #! /usr/bin/perl
-
 use POSIX;
 use Debconf::Client::ConfModule ':all';
 use HTTP::Request;

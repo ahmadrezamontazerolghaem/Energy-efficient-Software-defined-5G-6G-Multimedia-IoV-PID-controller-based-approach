@@ -1,5 +1,4 @@
 package sip
-
 import( 
   "io"
   "strings"

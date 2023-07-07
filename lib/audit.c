@@ -10,7 +10,6 @@ static unsigned read_class[] = {
 #include <asm-generic/audit_read.h>
 ~0U
 };
-
 static unsigned write_class[] = {
 #include <asm-generic/audit_write.h>
 ~0U

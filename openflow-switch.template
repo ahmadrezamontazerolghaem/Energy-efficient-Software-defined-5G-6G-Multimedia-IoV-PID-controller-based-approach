@@ -1,5 +1,6 @@
 # This is a POSIX shell fragment                -*- sh -*-
 
+
 # To configure the secure channel, fill in the following properly and
 # uncomment them.  Afterward, the secure channel will come up
 # automatically at boot time.  It can be started immediately with

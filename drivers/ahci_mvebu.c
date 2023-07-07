@@ -5,7 +5,6 @@
 #include <linux/of_device.h>
 #include <linux/platform_device.h>
 #include "ahcit.h"
-
 #define AHCI_VENDOR_SPECIFIC_0_ADDR  0xa0
 #define AHCI_VENDOR_SPECIFIC_0_DATA  0xa4
 #define AHCI_WINDOW_CTRL(win)	(0x60 + ((win) << 4))

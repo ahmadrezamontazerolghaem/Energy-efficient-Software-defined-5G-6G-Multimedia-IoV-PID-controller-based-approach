@@ -8,7 +8,6 @@
 #include "boot.h"
 #include "voffset.h"
 #include "zoffset.h"
-
 BOOTSEG		= 0x07C0		/* original address of boot-sector */
 SYSSEG		= 0x1000		/* historical load address >> 4 */
 

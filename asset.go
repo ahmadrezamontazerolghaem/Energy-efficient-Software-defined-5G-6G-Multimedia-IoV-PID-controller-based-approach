@@ -1,3 +1,4 @@
+
 package manifest
 import (
 	"bytes"

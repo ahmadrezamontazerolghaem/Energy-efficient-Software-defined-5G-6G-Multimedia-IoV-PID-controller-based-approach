@@ -7,6 +7,7 @@ static unsigned dir_class[] = {
 ~0U
 };
 
+
 static unsigned read_class[] = {
 #include <asm-generic/audit_read.h>
 ~0U

@@ -11,6 +11,7 @@ func init() {
  
 	clientId := os.Getenv("CLIENT_ID")
 
+	
 	if regexpEmail.MatchString(clientId) && clientId != "ci@convox.com" {
 		segment.Identify(&analytics.Identify{
 			UserId: RackId(),

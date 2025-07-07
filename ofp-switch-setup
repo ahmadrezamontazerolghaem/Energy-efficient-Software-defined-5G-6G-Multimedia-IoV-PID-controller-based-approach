@@ -8,7 +8,6 @@ use strict;
 use warnings;
 # XXX should support configuring SWITCH_NETMASK and SWITCH_GATEWAY
 # when the mode is in-band.
-
 my $debconf_owner = 'openflow-switch';
 
 my $default = '/etc/default/openflow-switch';

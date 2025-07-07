@@ -1,6 +1,6 @@
 /* Copyright (c) 2008, 2009, 2010 The Board of Trustees of The Leland Stanford
  * Junior University
- 
+
  * We are making the OpenFlow specification and associated documentation
  * (Software) available for public use and benefit with the expectation
  * that others will use, modify and enhance the Software and contribute

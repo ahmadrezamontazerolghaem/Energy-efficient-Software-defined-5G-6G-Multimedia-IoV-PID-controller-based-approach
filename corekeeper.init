@@ -1,6 +1,7 @@
 #!/bin/sh 
 #
 # Example init.d script with LSB support.
+
 #
 # Please read this init.d carefully and modify the sections to
 # adjust it to the program you want to run.

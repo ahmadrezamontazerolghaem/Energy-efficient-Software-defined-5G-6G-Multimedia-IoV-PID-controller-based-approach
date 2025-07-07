@@ -11,6 +11,7 @@
 #define AHCI_WINDOW_BASE(win)	(0x64 + ((win) << 4))
 #define AHCI_WINDOW_SIZE(win)	(0x68 + ((win) << 4))
 
+
 static void ahci_mvebu_mbus_config(struct ahci_host_priv *hpriv,
 				   const struct mbus_dram_target_info *dram)
 {

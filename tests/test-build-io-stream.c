@@ -6,6 +6,7 @@
 #include "agent.h" 
 #include "iostream.h"
 
+
 static void 
 test_invalid_stream (NiceAddress *addr)
 {

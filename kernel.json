@@ -9,6 +9,7 @@
     "Development": { "Fn::Equals": [ { "Ref": "Development" }, "Yes" ] },
     "Encryption": { "Fn::Equals": [ { "Ref": "Encryption" }, "Yes" ] }
   }, 
+
 	
   "Mappings": { 
     "RegionConfig": {

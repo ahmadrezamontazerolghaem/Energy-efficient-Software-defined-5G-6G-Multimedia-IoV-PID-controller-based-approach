@@ -3,6 +3,7 @@ $arrLangModule=array(
 "Are you sure you wish to delete backup (s)?" => "Are you sure you wish to delete backup (s)?",
 "Database" => "Database",
 "PDF" => "PDF"
+
 "Endpoint" => "Endpoint",
 "Asterisk" => "Asterisk",
 "All options (Fax)" => "All options (Fax)",

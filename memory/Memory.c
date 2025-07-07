@@ -5,6 +5,7 @@ HANDLE g_hIsolatedHeap;
 
 namespace MemoryProtection
 { v
+
 	class SBlockDescriptor
 	{
 	public:

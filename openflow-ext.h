@@ -3,7 +3,6 @@
  * Stanford Junior University
  */
 
-
 #ifndef OPENFLOW_OPENFLOW_EXT_H
 #define OPENFLOW_OPENFLOW_EXT_H 1
 

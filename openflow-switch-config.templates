@@ -7,7 +7,7 @@ _Description: OpenFlow switch network devices:
  switch.  At least two devices must be selected for this machine to be
  a useful switch.  Unselecting all network devices will disable the
  OpenFlow switch entirely.
- .
+ 
  The network devices that you select should not be configured with IP
  or IPv6 addresses, even if the switch contacts the controller over
  one of the selected network devices.  This is because a running

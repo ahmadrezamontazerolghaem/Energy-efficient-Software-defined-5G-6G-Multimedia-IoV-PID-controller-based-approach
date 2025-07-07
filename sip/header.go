@@ -5,6 +5,7 @@ import(
   "net/textproto"
 )
 
+
 type Header map[string][]string
 
 // writes a new SIP header
